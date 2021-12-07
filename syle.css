@@ -1,0 +1,49 @@
+.top {
+  width: 100%;
+}
+
+.second {
+  display: flex;
+  margin-top: 50px;
+}
+
+.left img {
+  width: 95%;
+  margin-right: 5%;
+}
+
+.right img {
+  width: 95%;
+  margin-left: 5%;
+}
+
+.third {
+  display: flex;
+}
+
+.lefttext {
+  width: 97%;
+  margin-right: 3%;
+}
+
+.righttext {
+  width: 97%;
+  margin-left: 3%;
+}
+
+ol {
+  background-color: skyblue;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+h4 {
+  margin-left: 15px;
+  margin-bottom: -27px;
+}
