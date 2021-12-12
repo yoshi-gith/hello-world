@@ -1,4 +1,5 @@
 .outer {
+  height: 20rem;
   position: relative;
 }
 
@@ -15,7 +16,6 @@
 
 .top {
   width: 100%;
-  margin-top: 150px;
 }
 
 .second {
@@ -35,7 +35,6 @@
 
 .third {
   display: flex;
-  margin-bottom: 150px;
 }
 
 .lefttext {
