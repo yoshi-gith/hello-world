@@ -1,0 +1,28 @@
+.parent {
+  font-size: large;
+  font-weight: bold;
+}
+
+.first {
+  margin: 30px;
+  padding: 40px 0;
+  background-color: #ccccff;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.second {
+  margin: 30px;
+  padding: 40px 0;
+  background-color: #ccccff;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.third {
+  margin: 30px;
+  padding: 40px 0;
+  background-color: #ccccff;
+  text-align: center;
+  border: 1px solid black;
+}
