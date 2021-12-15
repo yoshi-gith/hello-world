@@ -26,3 +26,35 @@
   text-align: center;
   border: 1px solid black;
 }
+
+@media (min-width: 501px) and (max-width: 1000px) {
+  .first {
+    margin: 50px 30px 30px 30px;
+    padding: 80px 0;
+  }
+  .scale {
+    display: flex;
+    justify-content: space-between;
+  }
+  .second,
+  .third {
+    width: 45%;
+    padding: 80px 0;
+  }
+}
+
+@media (min-width: 1000px) {
+  .first {
+    margin: 50px 30px 30px 30px;
+    padding: 80px 0;
+  }
+  .scale {
+    display: flex;
+    justify-content: space-between;
+  }
+  .second,
+  .third {
+    width: 45%;
+    padding: 80px 0;
+  }
+}
