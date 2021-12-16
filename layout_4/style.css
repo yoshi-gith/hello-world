@@ -1,50 +1,16 @@
-.outer {
-  height: 20rem;
-  position: relative;
-}
-
-.inner {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  margin: auto;
-  width: 80%;
-  height: 3.2rem;
-}
-
 .top {
   width: 100%;
-}
-
-.second {
-  display: flex;
-  margin-top: 50px;
+  margin: 20px 0px 0px 0px;
 }
 
 .left img {
-  width: 95%;
-  margin-right: 5%;
+  width: 100%;
+  margin-top: 20px;
 }
 
 .right img {
-  width: 95%;
-  margin-left: 5%;
-}
-
-.third {
-  display: flex;
-}
-
-.lefttext {
-  width: 97%;
-  margin-right: 3%;
-}
-
-.righttext {
-  width: 97%;
-  margin-left: 3%;
+  width: 100%;
+  margin-top: 20px;
 }
 
 ol {
@@ -62,4 +28,53 @@ li {
 h4 {
   margin-left: 15px;
   margin-bottom: -27px;
+}
+
+@media (min-width: 700px) {
+  .outer {
+    height: 20rem;
+    position: relative;
+  }
+
+  .inner {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 80%;
+    height: 3.2rem;
+  }
+
+  .second {
+    display: flex;
+    margin-top: 50px;
+  }
+
+  .left img {
+    width: 95%;
+    margin-right: 5%;
+    margin-top: 10px;
+  }
+
+  .right img {
+    width: 95%;
+    margin-left: 5%;
+    margin-top: 10px;
+  }
+
+  .third {
+    display: flex;
+  }
+
+  .lefttext {
+    width: 97%;
+    margin-right: 3%;
+  }
+
+  .righttext {
+    width: 97%;
+    margin-left: 3%;
+  }
 }
