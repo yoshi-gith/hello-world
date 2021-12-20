@@ -1,0 +1,138 @@
+.top {
+  width: 100%;
+  margin: 20px 0px 0px 0px;
+}
+
+.parentleft {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.left img {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.parentright {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.right img {
+  width: 100%;
+  margin-top: 20px;
+}
+
+ol {
+  background-color: skyblue;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+h4 {
+  margin-left: 15px;
+  margin-bottom: -27px;
+}
+
+@media (min-width: 700px) {
+  .outer {
+    height: 20rem;
+    position: relative;
+  }
+
+  .inner {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 80%;
+    height: 3.2rem;
+  }
+
+  .parent {
+    display: flex;
+    margin-top: 50px;
+  }
+
+  .parentleft {
+    width: 95%;
+    margin-right: 5%;
+    margin-top: 10px;
+  }
+
+  .parentright {
+    width: 95%;
+    margin-left: 5%;
+    margin-top: 10px;
+  }
+}
+
+/* .outer {
+  height: 20rem;
+  position: relative;
+}
+
+.inner {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 80%;
+  height: 3.2rem;
+}
+
+.top {
+  width: 100%;
+}
+
+.parent {
+  display: flex;
+  margin-top: 50px;
+}
+
+.left img {
+  width: 95%;
+  margin-right: 5%;
+}
+
+.right img {
+  width: 95%;
+  margin-left: 5%;
+}
+
+.lefttext {
+  width: 95%;
+  margin-right: 5%;
+}
+
+.righttext {
+  width: 95%;
+  margin-left: 5%;
+}
+
+ol {
+  background-color: skyblue;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+h4 {
+  margin-left: 15px;
+  margin-bottom: -27px;
+} */
