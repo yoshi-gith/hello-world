@@ -22,6 +22,7 @@ body {
   width: 100%;
   color: white;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -43,4 +44,10 @@ button {
 
 button:hover {
   background-color: #f24516;
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 1.1em;
+  }
 }
