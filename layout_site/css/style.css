@@ -50,17 +50,6 @@ header {
   border-color: #0a58ca;
 }
 
-/* section.first::before {
-  content: "";
-  position: absolute;
-  background-color: #1c375e;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  opacity: 0.5;
-} */
-
 section.first {
   display: flex;
   background: url(../image/bg-masthead.jpg);
@@ -72,6 +61,17 @@ section.first {
   padding-right: 0.75rem;
   padding-left: 0.75rem;
   justify-content: center;
+}
+
+section.first::before {
+  content: "";
+  position: absolute;
+  background-color: #1c375e;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.5;
 }
 
 .containerfirst {
