@@ -51,13 +51,11 @@ header {
 }
 
 section.first {
+  position: relative;
   display: flex;
-  background: url(../image/bg-masthead.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  padding-top: 192px;
-  padding-bottom: 192px;
+  background: url(../image/bg-masthead.jpg) no-repeat center center;
+  padding-top: 12rem;
+  padding-bottom: 12rem;
   padding-right: 0.75rem;
   padding-left: 0.75rem;
   justify-content: center;
@@ -75,7 +73,8 @@ section.first::before {
 }
 
 .containerfirst {
-  width: 35%;
+  width: 40%;
+  position: relative;
 }
 
 h1 {
@@ -84,13 +83,14 @@ h1 {
   color: white;
   font-weight: bold;
   text-align: center;
+  margin-bottom: 3rem;
 }
 
 input {
   min-height: 3rem;
   font-size: 1.25rem;
   width: 100%;
-  padding: 0.3rem 1.25rem;
+  padding: 0.3rem 0 0.3rem 1.25rem;
   border: 1px solid #ced4da;
   border-radius: 0.3rem;
   cursor: text;
