@@ -141,6 +141,17 @@ p {
   margin-top: auto;
   margin-bottom: auto;
 }
+h2 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+.pthird {
+  margin-top: 0;
+  font-size: 1.05rem;
+  font-weight: 200;
+}
 .image1 {
   background-image: url(../image/bg-showcase-1.jpg);
   min-height: 30rem;
@@ -219,11 +230,6 @@ p {
   .masssecond {
     width: 100%;
   }
-  .titlethird1,
-  .titlethird2,
-  .titlethird3 {
-    padding: 7rem;
-  }
 }
 
 @media (min-width: 992px) {
@@ -251,11 +257,15 @@ p {
   }
   .image1,
   .image2,
-  .image3,
+  .image3 {
+    width: 50%;
+  }
   .titlethird1,
   .titlethird2,
   .titlethird3 {
+    padding: 7rem;
     width: 50%;
+    box-sizing: border-box;
   }
 }
 
