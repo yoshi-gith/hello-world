@@ -186,6 +186,10 @@ h2 {
   .masssecond {
     width: 100%;
   }
+  .mass1,
+  .mass2 {
+    margin-bottom: 3rem;
+  }
 }
 
 @media (min-width: 576px) {
@@ -205,6 +209,10 @@ h2 {
   }
   .masssecond {
     width: 100%;
+  }
+  .mass1,
+  .mass2 {
+    margin-bottom: 3rem;
   }
 }
 
@@ -245,6 +253,10 @@ h2 {
   }
   .masssecond {
     width: 33.3333333333%;
+  }
+  .mass1,
+  .mass2 {
+    margin-bottom: 0;
   }
   .masssthird1,
   .masssthird2,
