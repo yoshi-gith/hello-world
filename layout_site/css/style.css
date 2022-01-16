@@ -11,7 +11,7 @@ header {
   font-weight: 400;
 }
 
-.navcontainer {
+.nav-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -21,7 +21,7 @@ header {
   margin: auto;
 }
 
-.nava {
+.nav-a {
   color: black;
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
@@ -33,7 +33,7 @@ header {
   text-decoration-color: black;
 }
 
-.navbutton {
+.nav-button {
   color: white;
   background-color: #0d6efd;
   border-color: #0d6efd;
@@ -45,24 +45,22 @@ header {
   cursor: pointer;
 }
 
-.navbutton:hover {
+.nav-button:hover {
   background-color: #0b5ed7;
   border-color: #0a58ca;
 }
 
-section.first {
+section.section-common {
   position: relative;
   display: flex;
   background: url(../image/bg-masthead.jpg) no-repeat center center;
   background-size: cover;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
   padding-right: 0.75rem;
   padding-left: 0.75rem;
   justify-content: center;
 }
 
-section.first::before {
+section.section-common::before {
   content: "";
   position: absolute;
   background-color: #1c375e;
@@ -72,8 +70,10 @@ section.first::before {
   left: 0;
   opacity: 0.5;
 }
-
-.containerfirst {
+.section-first {
+  padding: 8rem 0;
+}
+.container-first {
   position: relative;
 }
 
@@ -94,21 +94,22 @@ input {
   cursor: text;
 }
 
-.second {
+.section-second {
   padding-top: 7rem;
   padding-bottom: 7rem;
   background-color: rgb(248, 249, 250);
 }
 
-.containersecond {
+.container-second {
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  flex-wrap: wrap;
   margin: 0 auto;
 }
 
-.masssecond {
+.mass-second {
   text-align: center;
 }
 
@@ -129,14 +130,14 @@ p {
   font-weight: 200;
 }
 
-.masssthird1,
-.masssthird2,
+.mass-third1,
+.mass-third2,
 .masssthird3 {
   width: 100%;
 }
-.titlethird1,
-.titlethird2,
-.titlethird3 {
+.title-third1,
+.title-third2,
+.title-third3 {
   padding: 3rem;
   margin-top: auto;
   margin-bottom: auto;
@@ -146,8 +147,9 @@ h2 {
   margin-bottom: 0.5rem;
   font-size: 1.75rem;
   font-weight: 700;
+  text-align: center;
 }
-.pthird {
+.p-third {
   margin-top: 0;
   font-size: 1.05rem;
   font-weight: 200;
@@ -167,23 +169,86 @@ h2 {
   min-height: 30rem;
   background-size: cover;
 }
+.mass-fourth {
+  max-width: 18rem;
+  margin: 0 auto;
+}
+h2.h2-fourth {
+  font-size: 23px;
+  margin-bottom: 3rem;
+}
+h5 {
+  font-size: 1.25rem;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+.p-fourth {
+  font-size: 14px;
+  margin: 0;
+}
+.img-fourth {
+  max-width: 12rem;
+  box-shadow: 0px 5px 5px 0px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+.section-five {
+  padding: 3rem 0;
+}
+.h2-five {
+  font-size: 1.35rem;
+  color: white;
+  margin-bottom: 1.5rem;
+}
+footer {
+  padding: 4rem 0;
+}
+.footer-container {
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.footer-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer-icon {
+  text-align: center;
+}
+ul {
+  list-style: none;
+}
+li {
+  display: inline-block;
+}
+.li-margin {
+  margin-right: 1.5rem;
+}
+.a-footer {
+  color: #0d6efd;
+  text-decoration: underline;
+}
+i.fab {
+  font-size: 1.7rem;
+}
 
 @media (max-width: 575px) {
-  .navcontainer,
-  .containersecond {
+  .nav-container,
+  .container-second,
+  .footer-container {
     width: 450px;
   }
-  .containerfirst {
+  .container-first {
     width: 80%;
   }
   h1 {
     font-size: 1.75rem;
     margin-bottom: 2rem;
   }
-  .containersecond {
+  .container-second {
     flex-direction: column;
   }
-  .masssecond {
+  .mass-second {
     width: 100%;
   }
   .mass1,
@@ -193,21 +258,22 @@ h2 {
 }
 
 @media (min-width: 576px) {
-  .navcontainer,
-  .containersecond {
+  .nav-container,
+  .container-second,
+  .footer-container {
     max-width: 540px;
   }
-  .containerfirst {
+  .container-first {
     width: 70%;
   }
   h1 {
     font-size: 2rem;
     margin-bottom: 2rem;
   }
-  .containersecond {
+  .container-second {
     flex-direction: column;
   }
-  .masssecond {
+  .mass-second {
     width: 100%;
   }
   .mass1,
@@ -217,53 +283,58 @@ h2 {
 }
 
 @media (min-width: 768px) {
-  .navcontainer,
-  .containersecond {
+  .nav-container,
+  .container-second,
+  .footer-container {
     max-width: 720px;
   }
-  section.first {
+  section.section-first {
     padding-top: 12rem;
     padding-bottom: 12rem;
   }
-  .containerfirst {
+  .container-first {
     width: 60%;
   }
   h1 {
     font-size: 2.5rem;
     margin-bottom: 3rem;
   }
-  .containersecond {
+  .container-second {
     flex-direction: column;
   }
-  .masssecond {
+  .mass-second {
     width: 100%;
+  }
+  .h2-five {
+    font-size: 1.8rem;
   }
 }
 
 @media (min-width: 992px) {
-  .navcontainer,
-  .containersecond {
+  .nav-container,
+  .container-second,
+  .footer-container {
     max-width: 960px;
   }
-  .containerfirst {
+  .container-first {
     width: 50%;
   }
-  .containersecond {
+  .container-second {
     flex-direction: row;
   }
-  .masssecond {
+  .mass-second {
     width: 33.3333333333%;
   }
   .mass1,
   .mass2 {
     margin-bottom: 0;
   }
-  .masssthird1,
-  .masssthird2,
+  .mass-third1,
+  .mass-third2,
   .masssthird3 {
     display: flex;
   }
-  .masssthird1,
+  .mass-third1,
   .masssthird3 {
     flex-direction: row-reverse;
   }
@@ -272,9 +343,9 @@ h2 {
   .image3 {
     width: 50%;
   }
-  .titlethird1,
-  .titlethird2,
-  .titlethird3 {
+  .title-third1,
+  .title-third2,
+  .title-third3 {
     padding: 7rem;
     width: 50%;
     box-sizing: border-box;
@@ -282,37 +353,39 @@ h2 {
 }
 
 @media (min-width: 1200px) {
-  .navcontainer,
-  .containersecond {
+  .nav-container,
+  .container-second,
+  .footer-container {
     max-width: 1140px;
   }
-  .containerfirst {
+  .container-first {
     width: 50%;
   }
   h1 {
     font-size: 2.5rem;
     margin-bottom: 3rem;
   }
-  .containersecond {
+  .container-second {
     flex-direction: row;
   }
-  .masssecond {
+  .mass-second {
     width: 33.3333333333%;
   }
 }
 
 @media (min-width: 1400px) {
-  .navcontainer,
-  .containersecond {
+  .nav-container,
+  .container-second,
+  .footer-container {
     max-width: 1320px;
   }
-  .containerfirst {
+  .container-first {
     width: 40%;
   }
-  .containersecond {
+  .container-second {
     flex-direction: row;
   }
-  .masssecond {
+  .mass-second {
     width: 33.3333333333%;
   }
 }
