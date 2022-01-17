@@ -211,6 +211,7 @@ footer {
 .footer-flex {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .footer-icon {
   text-align: center;
@@ -226,7 +227,7 @@ li {
 }
 .a-footer {
   color: #0d6efd;
-  text-decoration: underline;
+  text-decoration: none;
 }
 i.fab {
   font-size: 1.7rem;
