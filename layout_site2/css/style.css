@@ -64,10 +64,12 @@ p {
 .section-second {
   text-align: center;
   padding: 5em 0 3em 0;
+  box-sizing: border-box;
 }
 .second {
   width: 60em;
   margin: 0 auto;
+  box-sizing: border-box;
 }
 .title {
   margin-bottom: 2em;
@@ -89,6 +91,8 @@ p {
   flex-wrap: wrap;
   justify-content: center;
   margin-bottom: 2em;
+  width: 100%;
+  box-sizing: border-box;
 }
 .item {
   border-style: solid;
@@ -96,8 +100,9 @@ p {
   border-color: #e3e3e3;
   margin-left: -1px;
   margin-top: -1px;
-  width: 33.33333%;
   padding: 2em 1.5em 0.1em 1.5em;
+  width: 33.33333%;
+  box-sizing: border-box;
 }
 .fa-regular {
   color: #00cdcf;
@@ -119,6 +124,7 @@ h3 {
   text-align: center;
   padding: 5em 0 3em 0;
   position: relative;
+  box-sizing: border-box;
 }
 header {
   margin-bottom: 1em;
@@ -126,6 +132,7 @@ header {
 .third {
   width: 35em;
   margin: 0 auto;
+  box-sizing: border-box;
 }
 form {
   display: flex;
@@ -161,6 +168,7 @@ input {
   width: 100%;
   font-size: 15px;
   height: 2.8em;
+  box-sizing: border-box;
 }
 textarea {
   width: 100%;
@@ -173,6 +181,7 @@ textarea {
   outline: 0;
   font-size: 15px;
   height: 9em;
+  box-sizing: border-box;
 }
 input[type="text"]:focus,
 input[type="email"]:focus,
