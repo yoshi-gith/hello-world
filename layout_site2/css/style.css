@@ -7,9 +7,11 @@ body {
   letter-spacing: 0.09em;
   line-height: 1.65em;
 }
-
 h2 {
   font-weight: 300;
+}
+p {
+  margin: 0 0 2em 0;
 }
 
 /* firstsection */
@@ -50,11 +52,146 @@ h2 {
   white-space: nowrap;
   margin: 0 0 2em 0;
   font: inherit;
+  letter-spacing: 0.09em;
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 
 .first-button:hover {
   background-color: #00b4b5;
+}
+
+/* section-second */
+.section-second {
+  text-align: center;
+  padding: 5em 0 3em 0;
+}
+.second {
+  width: 60em;
+  margin: 0 auto;
+}
+.title {
+  margin-bottom: 2em;
+}
+.h2-second,
+.h2-third {
+  display: inline-block;
+  padding-bottom: 0.4em;
+  border-bottom-style: double;
+  border-bottom-color: #e3e3e3;
+  border-bottom-width: 4px;
+  font-size: 1.6em;
+  line-height: 1.5em;
+  color: #555;
+  margin: 0 0 1em 0;
+}
+.second-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 2em;
+}
+.item {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e3e3e3;
+  margin-left: -1px;
+  margin-top: -1px;
+  width: 33.33333%;
+  padding: 2em 1.5em 0.1em 1.5em;
+}
+.fa-regular {
+  color: #00cdcf;
+  font-size: 2.8em;
+  margin-bottom: 0.7em;
+}
+h3 {
+  color: #555;
+  font-size: 1.2em;
+  font-weight: 300;
+  line-height: 1.5em;
+  margin: 0 0 1em 0;
+}
+
+/* section-third */
+.section-third {
+  background-color: #f7f7f7;
+  color: #444;
+  text-align: center;
+  padding: 5em 0 3em 0;
+  position: relative;
+}
+header {
+  margin-bottom: 1em;
+}
+.third {
+  width: 35em;
+  margin: 0 auto;
+}
+form {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 0 2em 0;
+}
+.form {
+  width: 100%;
+  margin-bottom: 2em;
+}
+.form-name,
+.form-email {
+  width: 45%;
+}
+label {
+  display: block;
+  font-size: 0.9em;
+  margin: 0 0 0.2em 0;
+}
+input {
+  background: #fff;
+  color: #555;
+  height: 2.75em;
+  border-radius: 0;
+  border: solid 1px;
+  border-color: #ddd;
+  box-shadow: none;
+  display: block;
+  outline: 0;
+  padding: 0 1em;
+  text-decoration: none;
+  width: 100%;
+  font-size: 15px;
+  height: 2.8em;
+}
+textarea {
+  width: 100%;
+  color: #555;
+  border: solid 1px;
+  border-color: #ddd;
+  box-shadow: none;
+  padding: 0.75em 1em;
+  text-decoration: none;
+  outline: 0;
+  font-size: 15px;
+  height: 9em;
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  border-color: #00cdcf;
+  border-width: 2px;
+}
+.form-send {
+  margin-bottom: 0;
+  width: 36%;
+  padding-left: 0;
+  margin: 0 auto;
+}
+.input-button {
+  background-color: #555;
+  color: #f7f7f7;
+  cursor: pointer;
+  height: 2.6em;
+  font-size: 17px;
 }
 
 /* @media (max-width: 736px) {
