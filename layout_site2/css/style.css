@@ -203,6 +203,34 @@ textarea:focus {
   font-size: 17px;
 }
 
+/* footer */
+footer {
+  padding: 4em 2em 3em 2em;
+  background-color: #f7f7f7;
+  color: #444;
+  position: relative;
+}
+footer::before {
+  background-color: #ddd;
+  content: "";
+  height: 1px;
+  left: 30%;
+  position: absolute;
+  top: 0;
+  width: 40%;
+}
+.copyright-p {
+  color: #bbb;
+  font-size: 0.9em;
+  margin: 0 0 2em 0;
+  padding: 0;
+  text-align: center;
+}
+a {
+  color: #00cdcf;
+  text-decoration: underline;
+}
+
 /* @media (max-width: 736px) {
   .section-first {
     padding: 3em 1.5em 1em 1.5em;
