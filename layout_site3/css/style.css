@@ -48,10 +48,8 @@ a {
   margin-bottom: 0;
   list-style: none;
 }
-.nav-item {
-  /* padding: 0.5rem 1rem; */
-}
 .nav-link {
+  display: block;
   font-weight: 800;
   letter-spacing: 0.05rem;
   text-transform: uppercase;
