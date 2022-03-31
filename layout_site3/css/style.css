@@ -22,6 +22,7 @@ a {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+  letter-spacing: 0.2px;
 }
 hr {
   margin: 0;
@@ -98,22 +99,32 @@ h3 {
   font-weight: 700;
   line-height: 1.2;
   color: #343a40;
+  font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 .first-title {
   color: #bd5d38;
 }
-.first-sub {
+.first-sub,
+.content-text {
   text-transform: uppercase;
   font-weight: 500;
   font-size: 1.5rem;
-  margin-bottom: 3rem;
+  margin-top: 0;
+  margin-bottom: 2.7rem;
+  letter-spacing: 0.5px;
+  font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 .first-mail {
   color: #bd5d38;
   text-decoration: none;
 }
 .first-text {
-  font-size: 1.15rem;
+  font-size: 1.05rem;
+  font-weight: 400;
   margin-bottom: 3rem;
 }
 .first-icon {
@@ -127,17 +138,30 @@ h3 {
 }
 .second-content {
   margin-bottom: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 h3 {
   font-size: 2rem;
   margin-bottom: 0;
+  margin-top: 0;
+  letter-spacing: 0.5px;
 }
 .content-text {
   text-transform: uppercase;
   font-weight: 500;
   font-size: 1.5rem;
-  margin: 0.5rem 0 1.5rem 0;
+  margin: 0.3rem 0 1.5rem 0;
+  letter-spacing: 0.8px;
+}
+.second-date {
+  flex-shrink: 0;
 }
 .date-text {
   color: #bd5d38;
+  letter-spacing: 0.5px;
+}
+.third-content {
+  margin-bottom: 3rem;
 }
