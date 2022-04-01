@@ -83,7 +83,9 @@ hr {
   display: flex;
   align-items: center;
 }
-.first-contents {
+.first-contents,
+.third-contents,
+.fourth-contents {
   width: 100%;
 }
 h1 {
@@ -136,7 +138,8 @@ h3 {
   margin-bottom: 3rem;
   font-size: 3.5rem;
 }
-.second-content {
+.second-content,
+.third-content {
   margin-bottom: 3rem;
   display: flex;
   flex-direction: row;
@@ -155,7 +158,8 @@ h3 {
   margin: 0.3rem 0 1.5rem 0;
   letter-spacing: 0.8px;
 }
-.second-date {
+.second-date,
+.third-date {
   flex-shrink: 0;
 }
 .date-text {
@@ -164,4 +168,21 @@ h3 {
 }
 .third-content {
   margin-bottom: 3rem;
+}
+.third-text {
+  letter-spacing: 0.2px;
+}
+.description {
+  flex-grow: 1;
+}
+li {
+  list-style-type: none;
+}
+.fourth-icons {
+  padding-left: 0;
+  font-size: 3rem;
+}
+.fourth-list {
+  padding-left: 1rem;
+  letter-spacing: 0.3px;
 }
